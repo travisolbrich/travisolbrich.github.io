@@ -6,7 +6,18 @@ img, div, h1, p {
 body {
     margin: 0;
     padding: 0;
-    background: rgb(128, 154, 128);
+    background:  rgb(128, 154, 128);
+}
+
+#image-overlay {
+    background-image: url("bg.png");
+    background-size: 732px 652px;
+    background-repeat: no-repeat;
+    opacity: .3;
+    width: 732px;
+    height: 652px;
+    z-index: 20;
+    position: absolute;
 }
 
 /*
@@ -88,6 +99,7 @@ ul {
 
 .top-list > li {
     padding: 2px 0 2px 0;
+    cursor: pointer;
 }
 
 .top-list > li > ul {
@@ -168,7 +180,7 @@ ul {
     font-size: 10px;
     font-family: arial, sans-serif;
     top: 280px;
-    left: 429px;
+    left: 432px;
 }
 
 .highlight-row {
@@ -218,6 +230,10 @@ ul {
 
 .footer-acknowledgments {
     margin-top: 16px;
+}
+
+.page-controls {
+    margin-top: 30px;
 }
 
 /*

@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <title>The Metropolitan Museum of Art, New York: metmuseum.org</title>
 
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <script src="script.js" type="text/javascript"></script>
 </head>
 <body>
+<div id="image-overlay"></div>
 
 <div class="header"></div>
 
@@ -151,6 +153,10 @@
         Opportunities</a></p>
 
     <p class="footer-acknowledgments"><a href="#">Acknowledgments</a></p>
+
+    <div class="page-controls">
+        <button id="toggle" onclick="toggleOverlay()">Disable Overlay</button>
+    </div>
 </div>
 
 </body>
