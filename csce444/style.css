@@ -1,9 +1,12 @@
 body {
-    padding: 80px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     color: #020614;
     background-color: #f7f7f7;
     max-width: 768px;
+}
+
+.page-container {
+    padding: 80px;
 }
 
 a {
