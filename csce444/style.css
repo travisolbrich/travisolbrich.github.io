@@ -7,13 +7,15 @@ body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     color: #020614;
     background-color: #f7f7f7;
-    max-width: 768px;
+   
     height: 100%;
     width: 100%;
 }
 
 .page-container {
     padding: 80px;
+    max-width: 768px;
+    margin: 0 auto;
 }
 
 a {
