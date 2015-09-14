@@ -1,7 +1,6 @@
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    line-height: 140%;
     color: #020614;
     max-width: 768px;
 }
@@ -28,6 +27,7 @@ h3 {
 
 p {
     padding: 10px 0;
+    line-height: 140%;
 }
 
 ul {
