@@ -1,0 +1,128 @@
+[
+   {
+    "id": "recursive-time",
+    "title": "Recursive Time",
+    "timeline": "Recursion",
+    "color": "tl-blue",
+    "content": "<div class='img-center'> <img src='http://romain.vuillemot.net/wp-content/uploads/2013/04/SOURCE-CODE_revealed_by_supermentera.jpg'  width='400px'> </div><br> <p>Recursive time is used as a metaphor in the Garden of Forking Paths. Every decision has effects in the future and is connected to precedence. In Source Code, this is very true for the main character. Each time he re-experiences the whole eight minutes, Gyllenhaal's character does things based on the past and affecting the future. We the audience know that he will experience it all over again.</p><br><div class='img-center'> <img src='img/hanoi.png'  width='300px'> </div><br>  <p>Recursive algorithms are especially interesting for solving computer programs such as the  Tower of Hanoi shown above. Many websites make especially good use of recusion, such as  <a href='http://zoomquilt.org/'>Zoomquilt</a>.</p> ",
+    "related": [
+      {
+        "title": "Simultaneous Outcomes",
+        "color": "tl-orange",
+        "content": "The forking paths represent the consequences of many outcomes. All of these outcomes occur simultaneously and lead to even more possibilities.",
+        "id": "simultaneous-outcomes"
+      },
+      {
+        "title": "Remixes",
+        "color": "tl-purple",
+        "content": "Information is saved and communicated to others through remixes.",
+        "id": "remixes"
+      }
+    ]
+  },
+  {
+    "id": "forking-paths",
+    "title": "(Non)Linearity of Timelines",
+    "timeline": "Forking Paths",
+    "color": "tl-orange",
+    "content": "<img class='img-left' src='img/forking-book.png'><p>In The Garden of Forking Paths, Doctor Albert realizes that the \"forking\" takes place in time, not in space. The novel created by Tsun's ancestor is describing a world where all possible outcomes of an event occur simultaneously. Each of these possible outcomes results in even more possible outcomes.</p> <br class='clear'/> <div class='img-center'> <img src='img/jake.png'> <img src='img/train.png'> </div> <br class='clear'/> <p>A similar \"Forking\" takes place in Source Code. Throughout the movie, Jake Gyllenhaal's character experiences this. For example, someone asks Gyllenhaal \"Am I on the right track?\" He responds \"Same train, different track.\" His character realizes and comments on the fact that minor differences in actions in different timelines can lead to different outcomes. His actions in past timelines (tracks) got him to where he is now: he's on the same train but in a different timeline.</p>",
+    "next": {
+      "title": "Simultaneous Outcomes",
+      "color": "tl-orange",
+      "content": "The forking paths represent the consequences of many outcomes. All of these outcomes occur simultaneously and lead to even more possibilities.",
+      "id": "simultaneous-outcomes"
+    },
+    "related": [
+      {
+        "title": "Hypertext",
+        "color": "tl-purple",
+        "content": "Ted Nelson shows that non-linear writing is capable of getting a point across.",
+        "id": "hypertext"
+      }
+    ]
+  },
+  {
+    "id": "simultaneous-outcomes",
+    "title": "Simultaneous Outcomes",
+    "timeline": "Forking Paths",
+    "color": "tl-orange",
+    "content": "<img class='img-left' src='img/forking-book.png'> <p>The novel created by Tsun's ancestor is  describing a world where all possible outcomes  of an event occur simultaneously. Each of these  possible outcomes results in even more possible  outcomes.</p> <p>In Source Code, Gyllenhaal's character is  separate from the timelines he creates. He might say \"there won't be a next time\" for the people in a particular timeline, but there definitely is a  \"next time\" for him.</p>  <br class='clear'/>  <div class='img-center'>  <img src='img/collage.png'>  </div>  <br class='clear'/>  <p>This collage shows different events in the movie that all occur at the same time relative to the internal timelines. In all but the final timeline, an explosion occurs, killing everyone on board the train. In the last timeline, we see the protagonist and his girlfriend alive. All of these events are  simultaneous.</p> ",
+    "related": [
+      {
+        "title": "Recursive Time",
+        "color": "tl-blue",
+        "content": "Every decision has effects in the future and is connected to precedence.",
+        "id": "recursive-time"
+      }
+    ]
+  },
+  {
+    "id": "remixes",
+    "title": "Remixes",
+        "timeline": "Interconnections",
+        "color": "tl-purple",
+    "content": "<div class='img-center'> <img src='https://upload.wikimedia.org/wikipedia/commons/9/99/Kilroy_Was_Here_-_Washington_DC_WWII_Memorial.jpg'  width='400px'> </div><br> <p>In \"Source Code,\" a computer program makes the protagonist remember the past. In the real world, information can be saved and shared through remixes or combinations of art forms that directly connect the past to the future (similar to how recursion does). \"Kilroy Was Here\" is an example of a combination of art forms. This particular engraving is on a monument in Washington D.C. It serves to connect a popular culture graffitti icon from the past to people in the future, similar to how Rauschenberg mixes media and times to share a message. </p><br><p>Musical remixes also share information across the times. Public Service Broadcasting's <a href='https://www.youtube.com/watch?v=BHIo6qwJarI'>Go!</a> and Axero's <a href='https://www.youtube.com/watch?v=w6YrX2RFygs'>Walk Away</a> are songs that combimne modern music with archival audio samples from important events in the past.</br> ",
+    "related": [
+      {
+        "title": "Recursive Time",
+        "color": "tl-blue",
+        "content": "Every decision has effects in the future and is connected to precedence.",
+        "id": "recursive-time"
+      }
+    ],
+    "next": {
+      "title": "Hypertext",
+      "color": "tl-purple",
+      "content": "Ted Nelson shows that non-linear writing is capable of getting a point across.",
+      "id": "hypertext"
+    }
+  },
+  {
+    "id": "hypertext",
+    "title": "Hypertext",
+    "timeline": "Interconnections",
+    "color": "tl-purple",
+    "content": "<div class='img-center'> <img src='img/internetmap.png'  width='400px'> </div><br> <p>Ted Nelson called his model for creating and linking information \"Hypertext\". He tried to show that non-linear writing could still get a point across. He even wrote his book such that the chapters could be read out of order.</p><br><p>The Internet is proof that the hypertext model works. The <a href='http://internet-map.net/'>Internet Map</a> shows the non-linear way by which most of the world's major Internet sites are connected.</p>",
+    "related": [
+      {
+        "title": "Remixes",
+        "color": "tl-purple",
+        "content": "Information is saved and communicated to others through remixes.",
+        "id": "remixes"
+      },
+      {
+        "title": "Forking Paths",
+        "color": "tl-orange",
+        "content": "Events in Source Code differ in time and but connected in space.",
+        "id": "forking-paths"
+      }
+    ],
+    "next": {
+      "title": "Synchronization",
+      "color": "tl-purple",
+      "content": "The synchronized cameras in Timecode show how events happening at the same time to different people connect these people together.",
+      "id": "synchronization"
+    }
+  },
+  {
+    "id": "synchronization",
+    "title": "Synchronization",
+    "timeline": "Interconnections",
+    "color": "tl-purple",
+    "content": "<div class='img-center'> <img src='img/web-design.png'  width='400px'> </div><br> <p>The synchronized cameras in Timecode show how events happening at the same time to different people connect these people together. In Source Code, each time through the eight minutes we get to see a different part of the larger picture.</p><br><p>Reddit is an example of this synchronization. People on reddit are connected not in space but in time. While content on this nexus of information is 'hot', people are connected by the content.</p> ",
+    "related": [
+      {
+        "title": "Hypertext",
+        "color": "tl-purple",
+        "content": "Ted Nelson shows that non-linear writing is capable of getting a point across.",
+        "id": "hypertext"
+      },
+      {
+        "title": "Remixes",
+        "color": "tl-purple",
+        "content": "Information is saved and communicated to others through remixes.",
+        "id": "remixes"
+      }
+    ]
+  }
+]
