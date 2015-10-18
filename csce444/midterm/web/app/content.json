@@ -82,7 +82,7 @@
     "title": "Hypertext",
     "timeline": "Interconnections",
     "color": "tl-purple",
-    "content": "<div class='img-center'> <img src='img/internetmap.png'  width='400px'> </div><br> <p>Ted Nelson called his model for creating and linking information \"Hypertext\". He tried to show that non-linear writing could still get a point across. He even wrote his book such that the chapters could be read out of order.</p><br><p>The Internet is proof that the hypertext model works. The <a href='http://internet-map.net/'>Internet Map</a> shows the non-linear way by which most of the world's major Internet sites are connected.</p>",
+    "content": "<div class='img-center'> <img src='img/internetmap.PNG'  width='400px'> </div><br> <p>Ted Nelson called his model for creating and linking information \"Hypertext\". He tried to show that non-linear writing could still get a point across. He even wrote his book such that the chapters could be read out of order.</p><br><p>The Internet is proof that the hypertext model works. The <a href='http://internet-map.net/'>Internet Map</a> shows the non-linear way by which most of the world's major Internet sites are connected.</p>",
     "related": [
       {
         "title": "Remixes",
@@ -109,7 +109,7 @@
     "title": "Synchronization",
     "timeline": "Interconnections",
     "color": "tl-purple",
-    "content": "<div class='img-center'> <img src='img/web-design.png'  width='400px'> </div><br> <p>The synchronized cameras in Timecode show how events happening at the same time to different people connect these people together. In Source Code, each time through the eight minutes we get to see a different part of the larger picture.</p><br><p>Reddit is an example of this synchronization. People on reddit are connected not in space but in time. While content on this nexus of information is 'hot', people are connected by the content.</p> ",
+    "content": "<div class='img-center'> <img src='img/web-design.PNG'  width='400px'> </div><br> <p>The synchronized cameras in Timecode show how events happening at the same time to different people connect these people together. In Source Code, each time through the eight minutes we get to see a different part of the larger picture.</p><br><p>Reddit is an example of this synchronization. People on reddit are connected not in space but in time. While content on this nexus of information is 'hot', people are connected by the content.</p> ",
     "related": [
       {
         "title": "Hypertext",
