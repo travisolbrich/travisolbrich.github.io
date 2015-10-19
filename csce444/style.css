@@ -1,5 +1,4 @@
 html {
-    height: 100%;
     width: 100%;
 }
 
@@ -7,9 +6,7 @@ body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     color: #020614;
     background-color: #f7f7f7;
-   
-    height: 100%;
-    width: 100%;
+
 }
 
 strong {
