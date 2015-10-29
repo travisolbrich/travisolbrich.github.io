@@ -23,18 +23,18 @@
 </head>
 <body ng-controller="ViewCtrl">
 <div class="container">
-    <div class="row header">
+    <div class="row header {{data.color}}-bg">
         <div class="col-md-6 col-md-offset-1">
             <div class="site-title">Source Code of Interactive Design {{loc}}</div>
             <div class="content-titles">
                 <table>
                     <tr>
-                        <td>Timeline:</td>
-                        <td><span class="{{data.color}}">{{data.timeline}}</span></td>
+                        <td>Timeline: &nbsp;</td>
+                        <td>{{data.timeline}}</td>
                     </tr>
                     <tr>
                         <td>Stop:</td>
-                        <td><span class="{{data.color}}">{{data.title}}</span></td>
+                        <td>{{data.title}}</td>
                     </tr>
                 </table>
             </div>
