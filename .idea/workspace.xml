@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a10f2d5b-213f-4e90-92fa-13404761632c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csce444/midterm/web/app/app.css" afterPath="$PROJECT_DIR$/csce444/midterm/web/app/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csce444/midterm/web/app/app.js" afterPath="$PROJECT_DIR$/csce444/midterm/web/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csce444/midterm/web/app/index.html" afterPath="$PROJECT_DIR$/csce444/midterm/web/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csce444/index.html" afterPath="$PROJECT_DIR$/csce444/index.html" />
     </list>
     <ignored path="travisolbrich.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csce444/midterm/web/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5837521">
+            <state vertical-scroll-proportion="0.0">
               <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
               <folding />
             </state>
@@ -65,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csce444/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
-              <caret line="30" column="210" selection-start-line="30" selection-start-column="210" selection-end-line="30" selection-end-column="210" />
+            <state vertical-scroll-proportion="0.45119864">
+              <caret line="31" column="174" selection-start-line="31" selection-start-column="174" selection-end-line="31" selection-end-column="174" />
               <folding />
             </state>
           </provider>
@@ -79,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/csce444/midterm/web/app/app.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -105,10 +104,10 @@
       <list>
         <option value="$PROJECT_DIR$/csce444/midterm/web/app/view.js" />
         <option value="$PROJECT_DIR$/csce444/midterm/web/app/map.js" />
-        <option value="$PROJECT_DIR$/csce444/index.html" />
         <option value="$PROJECT_DIR$/csce444/midterm/web/app/index.html" />
-        <option value="$PROJECT_DIR$/csce444/midterm/web/app/app.css" />
         <option value="$PROJECT_DIR$/csce444/midterm/web/app/app.js" />
+        <option value="$PROJECT_DIR$/csce444/midterm/web/app/app.css" />
+        <option value="$PROJECT_DIR$/csce444/index.html" />
       </list>
     </option>
   </component>
@@ -378,22 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csce444/midterm/web/app/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csce444/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
-          <caret line="30" column="210" selection-start-line="30" selection-start-column="210" selection-end-line="30" selection-end-column="210" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csce444/midterm/web/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.384615">
@@ -404,8 +387,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csce444/midterm/web/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5837521">
+        <state vertical-scroll-proportion="0.0">
           <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csce444/midterm/web/app/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csce444/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45119864">
+          <caret line="31" column="174" selection-start-line="31" selection-start-column="174" selection-end-line="31" selection-end-column="174" />
           <folding />
         </state>
       </provider>
