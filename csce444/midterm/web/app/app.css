@@ -94,10 +94,6 @@ body{
     clear: both;
 }
 
-.main {
-
-}
-
 .map {
     background: #fcfcfc;
     height: 260px;
@@ -127,4 +123,8 @@ h2 {
     .map {
         margin-top: -162px;
     }
+}
+
+.main {
+    text-align: justify;
 }
