@@ -112,7 +112,7 @@ var zoneArray = [];
 // Colors to use
 var purple = "#8C40A1";
 var orange = "#EBA403";
-var blue = "#6DDCCA";
+var blue = "#2E86C1";
 
 // Vertical position of the rows in the box
 var row1 = 70;
