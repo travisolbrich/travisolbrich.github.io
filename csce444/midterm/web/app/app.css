@@ -12,7 +12,7 @@ body{
 
 .header{
     /*background: #2E86C1;*/
-    height: 220px;
+    min-height: 220px;
 }
 
 .site-title{
@@ -101,6 +101,7 @@ body{
 .map {
     background: #fcfcfc;
     height: 260px;
+    text-align: center;
 
 }
 
