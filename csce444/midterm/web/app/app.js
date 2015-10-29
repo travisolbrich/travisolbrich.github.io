@@ -17,6 +17,10 @@ angular.module('myApp.view', ['ngRoute'])
         $routeProvider.when('/:test', {
             controller: 'ViewCtrl'
         });
+
+        $routeProvider.when('/:test/:saturation', {
+            controller: 'ViewCtrl'
+        });
     }])
 
     .controller('ViewCtrl', ['$scope', '$routeParams', '$location', '$http', '$filter', '$rootScope', function ($scope, $routeParams, $location, $http, $filter, $rootScope) {
@@ -26,12 +30,20 @@ angular.module('myApp.view', ['ngRoute'])
             $http.get('content.json').then(function (res) {
                 content = res.data;
 
-                var requested = $location.path().replace('/', '');
+                var requested = $location.path().replace('/', '').split('/')[0];
+                var sat = $location.path().replace('/', '').split('/')[1];
+
                 var single = $filter('filter')(res.data, function (d) {
                     return d.id == requested;
                 })[0];
+
                 $scope.all = res.data;
                 $scope.data = single;
+                if(sat == 'full') {
+                    $scope.sat = "-bg-full";
+                } else {
+                    $scope.sat = "-bg";
+                }
             });
         });
 
