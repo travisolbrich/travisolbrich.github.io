@@ -9,7 +9,7 @@ function drawRow(context, y, color) {
     context.stroke();
 }
 
-function drawCircle(id, context, x, y, color) {
+function drawCircle(id, name, context, x, y, color) {
     // Start with a white fill to hide the line under the circle
     context.beginPath();
     context.arc(x, y, 8, 0, 2 * Math.PI);
@@ -27,6 +27,7 @@ function drawCircle(id, context, x, y, color) {
     // Return an array showing a bounding box of the object
     return {
         id: id,
+        name: name,
         x1: x - 20,
         y1: y - 20,
         x2: x + 20,
@@ -43,14 +44,14 @@ function drawBase() {
     drawRow(ctx, row3, purple);
 
     // Draw circles
-    zoneArray.push(drawCircle('recursive-time', ctx, 120, row1, blue));
+    zoneArray.push(drawCircle('recursive-time', 'Recursive Time', ctx, 120, row1, blue));
 
-    zoneArray.push(drawCircle('forking-paths', ctx, 77, row2, orange));
-    zoneArray.push(drawCircle('simultaneous-outcomes', ctx, 160, row2, orange));
+    zoneArray.push(drawCircle('forking-paths', 'Forking Paths', ctx, 77, row2, orange));
+    zoneArray.push(drawCircle('simultaneous-outcomes', 'Simultaneous Outcomes', ctx, 160, row2, orange));
 
-    zoneArray.push(drawCircle('remixes', ctx, 35, row3, purple));
-    zoneArray.push(drawCircle('hypertext', ctx, 120, row3, purple));
-    zoneArray.push(drawCircle('synchronization', ctx, 203, row3, purple));
+    zoneArray.push(drawCircle('remixes', 'Remixes', ctx, 35, row3, purple));
+    zoneArray.push(drawCircle('hypertext', 'Hypertext', ctx, 120, row3, purple));
+    zoneArray.push(drawCircle('synchronization', 'Synchronization', ctx, 203, row3, purple));
 
     // Draw text
     ctx.font = "16px Arial";
@@ -90,7 +91,7 @@ function handleMouseMove(e, mouseX, mouseY) {
         ctx.fillStyle = "black";
         ctx.textAlign = "center";
 
-        ctx.fillText(zoneHit.id, zoneHit.x, zoneHit.y-25);
+        ctx.fillText(zone.name, zoneHit.x, zoneHit.y-25);
     }
     else if(zone == null && previousHit) {
         // Restore the base map if not
@@ -129,5 +130,19 @@ canvas.addEventListener('mousemove', function (e) {
         var mouseX = e.clientX - canvasrect.left;
         var mouseY = e.clientY - canvasrect.top;
         handleMouseMove(e, mouseX, mouseY);
+    }
+);
+
+// listen for click events
+canvas.addEventListener('click', function (e) {
+        var canvasrect = canvas.getBoundingClientRect();
+        var mouseX = e.clientX - canvasrect.left;
+        var mouseY = e.clientY - canvasrect.top;
+
+        var zone = determineZoneHit(mouseX, mouseY);
+
+        if(zone != null) {
+            window.location.href = '#/' + zone.id;
+        }
     }
 );
